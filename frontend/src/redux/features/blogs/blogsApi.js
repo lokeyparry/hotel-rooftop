@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 export const blogApi = createApi({
     reducerPath: 'blogsApi',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'https://parvejhotel-y9qa.vercel.app/api/',
+        baseUrl: 'https://parvejhotel-y9qa.vercel.app/api',
         credentials: 'include'
     }),
     tagTypes: ['Blogs'],
