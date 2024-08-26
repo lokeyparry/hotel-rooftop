@@ -15,7 +15,7 @@ app.use(cookieParser())
 app.use(bodyParser.json({ limit: '10mb' }))
 app.use(bodyParser.urlencoded({ limit: '10mb', extended: true }))
 app.use(cors({
-    origin: 'https://parvejansarihotels07.vercel.app',
+    origin: 'https://parvejhotel-y9qa.vercel.app',
     credentials: true,
 }));
 
